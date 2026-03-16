@@ -1,0 +1,10 @@
+<app-card>
+  <div class="profile-card-container">
+    <app-avatar avatarSizePx="48px" [avatarImgSrc]="avatarImgSrc()"></app-avatar>
+    <div class="profile-card-body">
+      <p class="profile-name">{{ fullName() }}</p>
+      <p class="profile-tag">{{ userTag() }}</p>
+    </div>
+    <app-button label="Follow"></app-button>
+  </div>
+</app-card>

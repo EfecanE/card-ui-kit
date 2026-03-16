@@ -1,0 +1,30 @@
+.mac-container {
+  display: flex;
+  background-color: #F8F8FA;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 500px;
+  height: 160px;
+  align-items: center;
+}
+
+.mac-image {
+  width: 160px;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
+.mac-content {
+  padding: 24px;
+  flex: 1;
+}
+
+.mac-title {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #2A282F;
+  line-height: 1.3;
+  margin: 0;
+}

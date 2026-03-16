@@ -1,0 +1,21 @@
+.creators-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2A282F;
+}
+
+.creators-list {
+  display: flex;
+  align-items: center;
+
+  app-avatar:not(:first-child) {
+    margin-left: -8px;
+  }
+}

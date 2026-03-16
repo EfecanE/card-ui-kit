@@ -1,0 +1,25 @@
+.profile-card-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 328px;
+}
+
+.profile-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: stretch;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.profile-name {
+    font-size: 16px;
+}
+
+.profile-tag {
+    font-weight: 200;
+    color: #999;
+}

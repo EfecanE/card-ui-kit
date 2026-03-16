@@ -1,0 +1,10 @@
+<app-card>
+  <div class="creators-container">
+    <h2>{{ title() }}</h2>
+    <div class="creators-list">
+      @for (avatar of avatars(); track avatar) {
+        <app-avatar [avatarImgSrc]="avatar" avatarSizePx="32px"></app-avatar>
+      }
+    </div>
+  </div>
+</app-card>

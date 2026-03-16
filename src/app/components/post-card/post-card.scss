@@ -1,0 +1,60 @@
+.post-card-container {
+  display: flex;
+  gap: 16px;
+  max-width: 600px;
+}
+
+.pc-left {
+  flex-shrink: 0;
+}
+
+.pc-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.pc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.pc-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pc-author {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2A282F;
+}
+
+.pc-dot {
+  color: #A0A0AB;
+  font-size: 1.25rem;
+}
+
+.pc-time {
+  font-size: 1.25rem;
+  color: #A0A0AB;
+}
+
+.pc-more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #A0A0AB;
+}
+
+.pc-content {
+  font-size: 1.25rem;
+  color: #2A282F;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+
